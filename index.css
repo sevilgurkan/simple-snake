@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#canvas {
+  width: 800px;
+  height: 480px;
+  border: 5px solid #000;
+  position: relative;
+  box-sizing: content-box;
+}
